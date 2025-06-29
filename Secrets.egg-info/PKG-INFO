@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: Secrets
+Version: 1.0.0
+Summary: A Tkinter-based encryption app with a neon hacker-style interface
+Home-page: https://github.com/lamartine587/Secrets
+Author: Don
+Author-email: kipkoechlamartine@gmail.com
+License: MIT
+Requires-Dist: cryptography>=36.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

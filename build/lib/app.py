@@ -269,10 +269,8 @@ class SecureMessageApp:
                                  f"Decryption failed: {e}\nEnsure the input is a valid Fernet-encrypted message.")
             self.update_status(f"DECRYPTION ERROR: {e}", ACCENT_BLUE)
 
-def main():
+# --- Run the application ---
+if __name__ == "__main__":
     root = tk.Tk()
     app = SecureMessageApp(root)
     root.mainloop()
-
-if __name__ == "__main__":
-    main()
